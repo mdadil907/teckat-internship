@@ -2,8 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
+  let str = "Hello"
+  let str2 = "World"
+
+  if(str === "Hello" && str2 === "World")
+    {
+      console.log("Hello World")
+    }
+
+    return (
+       <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
